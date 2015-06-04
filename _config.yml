@@ -7,7 +7,7 @@ version:          1.0.0
 
 github:
   repo:           ''
-baseurl:          ''
+baseurl:          'http://carrie88.github.io/carrie-2015/'
 
 
 # Permalinks
