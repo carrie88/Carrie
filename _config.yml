@@ -2,12 +2,7 @@
 markdown:         redcarpet
 highighter:       true
 
-# Custom vars
-version:          1.0.0
 
-github:
-  repo:           ''
-baseurl:          'http://carrie88.github.io/carrie-2015/'
 
 
 # Permalinks
@@ -31,3 +26,11 @@ version:          2.0.0
 github:
   repo:           ''
 baseurl:          ''
+
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           ''
+baseurl:          /carrie-2015
