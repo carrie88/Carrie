@@ -1,6 +1,7 @@
 # Dependencies
 markdown:         redcarpet
 highighter:       true
+baseurl: /carrie-2015
 
 # Permalinks
 permalink:        /blog/:title
