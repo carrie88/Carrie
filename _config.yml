@@ -1,7 +1,14 @@
 # Dependencies
 markdown:         redcarpet
 highighter:       true
-baseurl: /carrie-2015
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           ''
+baseurl:          ''
+
 
 # Permalinks
 permalink:        /blog/:title
