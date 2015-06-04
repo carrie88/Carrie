@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"main.scss",
+		"_sass/_base.scss",
+		"_sass/_layout.scss"
+	],
+	"sourcesContent": [],
+	"mappings": ";AEEA,IAAI,CAAA;EACA,KAAK,EAHC,IAAI,GAET",
+	"names": []
+}

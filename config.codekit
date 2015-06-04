@@ -65,6 +65,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/css\/main.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -73,7 +82,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/css\/main.scss",
-		"outputAbbreviatedPath": "\/_site\/css\/main.css",
+		"outputAbbreviatedPath": "\/_site\/css\/main.css\/main.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -128,7 +137,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/_sass\/_base.scss",
-		"outputAbbreviatedPath": "\/css\/css\/_base.css",
+		"outputAbbreviatedPath": "\/_site\/css\/main.css\/_base.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -144,7 +153,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/_sass\/_layout.scss",
-		"outputAbbreviatedPath": "\/css\/css\/_layout.css",
+		"outputAbbreviatedPath": "\/_site\/css\/main.css\/_layout.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -160,13 +169,22 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/_sass\/_syntax-highlighting.scss",
-		"outputAbbreviatedPath": "\/css\/css\/_syntax-highlighting.css",
+		"outputAbbreviatedPath": "\/_site\/css\/main.css\/_syntax-highlighting.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/css\/main.scss": {
 		"createSourceMap": 0,
@@ -176,7 +194,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/main.scss",
-		"outputAbbreviatedPath": "\/_site\/css\/main.css",
+		"outputAbbreviatedPath": "\/css\/main.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
@@ -203,7 +221,7 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "carrie2015",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_gray"
+	"iconImageName": "globe_blue"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
@@ -840,10 +858,10 @@
 	"reloadFileURLs": 0,
 	"sassAutoOutputPathEnabled": 1,
 	"sassAutoOutputPathFilenamePattern": "*.css",
-	"sassAutoOutputPathRelativePath": "..\/css",
+	"sassAutoOutputPathRelativePath": "_site\/css\/main.css",
 	"sassAutoOutputPathReplace1": "sass",
 	"sassAutoOutputPathReplace2": "css",
-	"sassAutoOutputPathStyle": 2,
+	"sassAutoOutputPathStyle": 1,
 	"sassCreateSourceMap": 0,
 	"sassDebugStyle": 0,
 	"sassDecimalPrecision": 10,
