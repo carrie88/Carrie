@@ -1,0 +1,64 @@
+/* base styles */
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  &:before, &:after {
+    box-sizing: border-box;
+  }
+}
+@mixin trans {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+@mixin border-radius {
+  border-radius: 3px;
+}
+html, body {
+  height: 100%;
+  background:#fff;
+  @include trans;
+  margin:0;
+  font-family: sans-serif;
+}
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+a {
+  color: $green;
+  border-bottom:2px solid $green;
+  padding-bottom: 2px;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+
+
+
+
+
+.strip{
+	width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+	.strip-inner{
+		vertical-align: middle;
+	}
+}
+.text-center{
+	text-align: center;
+}
+img{
+	max-width: 100%;
+}
+.purple{
+	background: $purple;
+}

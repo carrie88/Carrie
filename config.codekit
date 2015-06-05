@@ -56,22 +56,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_sass\/variables.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_sass\/variables.scss",
-		"outputAbbreviatedPath": "\/css\/variables.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/_site\/about\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -81,11 +65,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/css\/main.css": {
-		"fileType": 16,
-		"ignore": 1,
+	"\/_site\/blog\/welcome-to-jekyll\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/main.css",
+		"inputAbbreviatedPath": "\/_site\/blog\/welcome-to-jekyll\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -98,13 +82,35 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/css\/main.scss",
-		"outputAbbreviatedPath": "\/_site\/css\/main.css",
+		"outputAbbreviatedPath": "\/_site\/css\/main.css\/main.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/_site\/img\/apple-touch-icon-precomposed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22139,
+		"inputAbbreviatedPath": "\/_site\/img\/apple-touch-icon-precomposed.png",
+		"outputAbbreviatedPath": "\/_site\/img\/apple-touch-icon-precomposed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19557,
+		"inputAbbreviatedPath": "\/_site\/img\/favicon.png",
+		"outputAbbreviatedPath": "\/_site\/img\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/_site\/index.html": {
 		"fileType": 8192,
@@ -115,14 +121,71 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/jekyll\/update\/2015\/06\/04\/welcome-to-jekyll.html": {
-		"fileType": 8192,
+	"\/_site\/js\/jquery.min.js": {
+		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/jekyll\/update\/2015\/06\/04\/welcome-to-jekyll.html",
-		"outputAbbreviatedPath": "No Output Path",
+		"inputAbbreviatedPath": "\/_site\/js\/jquery.min.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/jquery.min-min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/js\/jquery.scrollUp.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/jquery.scrollUp.min.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/jquery.scrollUp.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/js\/min\/scripts-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/min\/scripts-min.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/min\/scripts-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/js\/modernizr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/modernizr.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/modernizr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/js\/scripts.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/scripts.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/scripts-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/js\/transition.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/transition.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/transition-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/about.md": {
 		"criticStyle": 0,
@@ -145,15 +208,15 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/css\/_sass\/_base.scss": {
+	"\/css\/_sass\/_variables.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/_sass\/_base.scss",
-		"outputAbbreviatedPath": "\/css\/css\/_base.css",
+		"inputAbbreviatedPath": "\/css\/_sass\/_variables.scss",
+		"outputAbbreviatedPath": "\/_site\/css\/main.css\/_variables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -161,15 +224,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/css\/_sass\/_layout.scss": {
+	"\/css\/_sass\/general\/_general.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/_sass\/_layout.scss",
-		"outputAbbreviatedPath": "\/css\/css\/_layout.css",
+		"inputAbbreviatedPath": "\/css\/_sass\/general\/_general.scss",
+		"outputAbbreviatedPath": "\/_site\/css\/main.css\/_general.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -177,15 +240,47 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/css\/_sass\/_syntax-highlighting.scss": {
+	"\/css\/_sass\/general\/_grid.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/_sass\/_syntax-highlighting.scss",
-		"outputAbbreviatedPath": "\/css\/css\/_syntax-highlighting.css",
+		"inputAbbreviatedPath": "\/css\/_sass\/general\/_grid.scss",
+		"outputAbbreviatedPath": "\/_site\/css\/main.css\/_grid.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/css\/_sass\/general\/_type.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/_sass\/general\/_type.scss",
+		"outputAbbreviatedPath": "\/_site\/css\/main.css\/_type.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/css\/_sass\/variables\/_variables.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/_sass\/variables\/_variables.scss",
+		"outputAbbreviatedPath": "\/_site\/css\/main.css\/_variables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -212,11 +307,33 @@
 		"inputAbbreviatedPath": "\/css\/main.scss",
 		"outputAbbreviatedPath": "\/css\/main.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/img\/apple-touch-icon-precomposed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22139,
+		"inputAbbreviatedPath": "\/img\/apple-touch-icon-precomposed.png",
+		"outputAbbreviatedPath": "\/img\/apple-touch-icon-precomposed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19557,
+		"inputAbbreviatedPath": "\/img\/favicon.png",
+		"outputAbbreviatedPath": "\/img\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -226,6 +343,72 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/js\/jquery.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/jquery.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/jquery.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/jquery.scrollUp.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/jquery.scrollUp.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/jquery.scrollUp.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/scripts-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/scripts-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/scripts-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/modernizr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/modernizr.js",
+		"outputAbbreviatedPath": "\/js\/min\/modernizr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/scripts.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/scripts.js",
+		"outputAbbreviatedPath": "\/js\/min\/scripts-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/transition.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/transition.js",
+		"outputAbbreviatedPath": "\/js\/min\/transition-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		}
 	},
 "hooks": [
@@ -235,9 +418,9 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "carrie-2015",
+	"displayValue": "carrie2015",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "pencil_gray"
+	"iconImageName": "globe_blue"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
@@ -874,10 +1057,10 @@
 	"reloadFileURLs": 0,
 	"sassAutoOutputPathEnabled": 1,
 	"sassAutoOutputPathFilenamePattern": "*.css",
-	"sassAutoOutputPathRelativePath": "..\/css",
+	"sassAutoOutputPathRelativePath": "_site\/css\/main.css",
 	"sassAutoOutputPathReplace1": "sass",
 	"sassAutoOutputPathReplace2": "css",
-	"sassAutoOutputPathStyle": 2,
+	"sassAutoOutputPathStyle": 1,
 	"sassCreateSourceMap": 0,
 	"sassDebugStyle": 0,
 	"sassDecimalPrecision": 10,
