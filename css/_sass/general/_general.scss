@@ -1,17 +1,18 @@
 /* base styles */
-
-* {
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  font-family: 'Dosis';
-  &:before, &:after {
-    box-sizing: border-box;
-  }
-}
 @mixin trans {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Dosis';
+  @include trans;
+  &:before, &:after {
+    box-sizing: border-box;
+  }
+}
+
 @mixin border-radius {
   border-radius: 3px;
 }
