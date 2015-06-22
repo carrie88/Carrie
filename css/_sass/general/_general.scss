@@ -1,7 +1,7 @@
 /* base styles */
 @mixin trans {
   -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 * {
   box-sizing: border-box;
@@ -42,11 +42,17 @@ a:active {
 }
 
 
-
+.fixIt{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
 
 .strip{
 	width:100%;
   display: table;
+  height: 500px;
 	.strip-inner{
 		display: table-cell;
     text-align: center;
@@ -54,6 +60,8 @@ a:active {
     float: none;
     img{
       padding:30px;
+      max-height: 250px;
+
     }
     h1{
       color:#F0EEF4;
@@ -80,3 +88,18 @@ img{
 .purple{
 	background: $purple;
 }
+
+.tab-content.top-margin{
+  margin-top:250px;
+  }
+  .tab-content{
+  margin-top:650px;
+  }
+
+  .col-md-4{
+    margin-bottom:20px;
+  }
+
+  .section-margin{
+    margin-bottom: 35px;
+  }

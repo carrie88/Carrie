@@ -1,0 +1,91 @@
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+      display:none;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    display:none !important;
+    height: 0;
+  }
+}
+
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+
+@-webkit-keyframes shrinkIt {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+      display:none;
+  }
+}
+
+@keyframes shrinkIt {
+  0% {
+    width: 324px;
+  }
+
+  80% {
+    width: 150px;
+  }
+   100% {
+    width: 150px;
+  }
+}
+
+.shrinkIt {
+  -webkit-animation-name: shrinkIt;
+  animation-name: shrinkIt;
+}
+
+
+.nav{
+	background: #C9C2D6;
+	text-align: center;
+	ul{
+		margin:0;
+	}
+	li{
+		padding:40px;
+		display: inline-block;
+		font-size: 25px;
+		a{
+			border:0;
+			font-weight: 600;
+			color: #553F7B;
+		}
+	}
+}
+.resize{
+  .strip.purple{
+    height: 50px !important;
+  }
+  .nav li{
+    padding: 20px 40px;
+  }
+}
